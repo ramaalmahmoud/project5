@@ -1,0 +1,98 @@
+﻿@model Project5_election_website.Models.localList
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>localList</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Circle_ID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Circle_ID)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.list_Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.list_Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.list_Candidates)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.list_Candidates)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Delegate_Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Delegate_Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Delegate_Phone)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Delegate_Phone)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Delegate_Email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Delegate_Email)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Counter)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Counter)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Status)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Status)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.reason)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.reason)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.List_Logo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.List_Logo)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

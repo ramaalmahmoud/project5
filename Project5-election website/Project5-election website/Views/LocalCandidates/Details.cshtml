@@ -1,0 +1,74 @@
+﻿@model Project5_election_website.Models.LocalCandidate
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>LocalCandidate</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.National_ID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.National_ID)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Candidate_Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Candidate_Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Type_Of_Chair)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Type_Of_Chair)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.List_Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.List_Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Counter)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Counter)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Picture)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Picture)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.List_ID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.List_ID)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.CandidateId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

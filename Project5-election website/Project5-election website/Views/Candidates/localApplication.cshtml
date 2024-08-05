@@ -1,0 +1,88 @@
+﻿@model Project5_election_website.Models.localList
+
+@{
+    ViewBag.Title = "localApplication";
+}
+
+<h2>localApplication</h2>
+
+
+<form action="@Url.Action("localApplication", "Candidates")" method="post">
+
+    <!-- circle and list -->
+    <fieldset>
+        <legend>معلومات الدائرة والقائمة</legend>
+        <div class="form-group">
+            <label for="CircleName">اسم الدائرة</label>
+            <select id="CircleName" name="CircleName" class="form-control" onchange="updateForm()">
+                <option value="">اختر دائرة</option>;
+                <option value="Circle 1">اربد الاولى</option>
+                <option value="Circle 2">اربد الثانية</option>
+                <option value="Circle 3">جرش</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.list_Name, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.list_Name, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.list_Name, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.list_Candidates, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.list_Candidates, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.list_Candidates, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+
+
+        <div class="form-group">
+            <label for="ListLogo">شعار القائمة</label>
+            <input type="file" id="ListLogo" name="ListLogo" class="form-control" />
+        </div>
+    </fieldset>
+
+    <!-- delegate info -->
+    <fieldset>
+        <legend>معلومات المفوض</legend>
+        <div class="form-group">
+            @Html.LabelFor(model => model.Delegate_ID, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Delegate_ID, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Delegate_ID, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Delegate_ID, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Delegate_ID, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Delegate_ID, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Delegate_Email, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Delegate_Email, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Delegate_Email, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Delegate_Phone, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Delegate_Phone, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Delegate_Phone, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+    </fieldset>
+   
+    <button type="submit" class="btn btn-primary">إرسال</button>
+</form>

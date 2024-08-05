@@ -1,0 +1,52 @@
+﻿@model IEnumerable<Project5_election_website.Models.LocalCandidate>
+
+@{
+    ViewBag.Title = "Candidates Application";
+    var number = ViewBag.number;
+    var x = Convert.ToInt32(Session["count"].ToString()); // You can replace this with the dynamic value you need
+}
+
+<h2>Candidates Application</h2>
+
+@using (Html.BeginForm("candidatesAPP", "Candidates", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+        @for (int i = 0; i < x; i++)
+        {
+            <fieldset>
+                <legend>Candidate @i+1</legend>
+
+                <div class="form-group">
+                    <label for="candidated_@i" class="control-label col-md-2">National ID</label>
+                    <div class="col-md-10">
+                        <input type="text" name="candidated[@i].National_ID" id="candidated_@i" class="form-control" />
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="candidated_@i" class="control-label col-md-2">Candidate Name</label>
+                    <div class="col-md-10">
+                        <input type="text" name="candidated[@i].Candidate_Name" id="candidated_@i" class="form-control" />
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="candidated_@i" class="control-label col-md-2">Type Of Chair</label>
+                    <div class="col-md-10">
+                        <input type="text" name="candidated[@i].Type_Of_Chair" id="candidated_@i" class="form-control" />
+                    </div>
+                </div>
+            </fieldset>
+        }
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Save Candidates" class="btn btn-primary" />
+            </div>
+        </div>
+    </div>
+}
