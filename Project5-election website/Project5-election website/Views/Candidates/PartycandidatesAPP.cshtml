@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewBag.Title = "PartycandidatesAPP";
+}
+
+<h2>PartycandidatesAPP</h2>
+@using (Html.BeginForm("PartycandidatesAPP", "Candidates", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+
+    <!-- تحميل ملف Excel للمرشحين -->
+    <div class="form-group">
+        <label for="CandidatesExcelFile">تحميل ملف Excel للمرشحين</label>
+        <input type="file" name="CandidatesExcelFile" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-primary">تقديم</button>
+}

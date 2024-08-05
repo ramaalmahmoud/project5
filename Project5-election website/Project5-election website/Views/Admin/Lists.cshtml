@@ -1,0 +1,169 @@
+﻿@model Project5_election_website.Models.ListViewModel
+
+@{
+    ViewBag.Title = "Lists";
+}
+
+<div class="container">
+    <h2>Local Lists</h2>
+    <div class="row">
+        @foreach (var localList in Model.LocalLists)
+        {
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-header">
+                        @localList.list_Name
+                    </div>
+                    <div class="card-body">
+                        @if (localList.Circle_ID == 1)
+                        {
+                            <p>دائرة اربد الاولى</p>
+                        }
+                        @if (localList.Circle_ID == 2)
+                        {
+                            <p>دائرة اربد الثانية</p>
+                        }
+                        @if (localList.Circle_ID == 3)
+                        {
+                            <p>دائرة جرش</p>
+                        }
+
+                        @if (!string.IsNullOrEmpty(localList.List_Logo))
+                        {
+                            <img src="@Url.Content(localList.List_Logo)" alt="Local List Image" class="img-fluid" />
+                        }
+                        <h5>Candidates</h5>
+                        <ul>
+                            @if (Model.CandidatesByList.ContainsKey(localList.ID))
+                            {
+                                foreach (var candidate in Model.CandidatesByList[localList.ID])
+                                {
+                                    <li>@candidate.National_ID</li>
+                                    <li>@candidate.Candidate_Name</li>
+                                    <li>@candidate.Type_Of_Chair</li>
+                                }
+                            }
+                            else
+                            {
+                                <li>No candidates available</li>
+                            }
+                        </ul>
+
+                        <button class="btn btn-success" onclick="showApprovalAlert(@localList.ID)">Approve</button>
+
+
+                        <button class="btn btn-danger" onclick="showRejectionAlert(@localList.ID)">Decline</button>
+
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+
+    <h2>Party Lists</h2>
+    <div class="row">
+        @foreach (var partyList in Model.PartyLists)
+        {
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-header">
+                        @partyList.Party_Name
+                    </div>
+                    <div class="card-body">
+                        <p>Circle ID: @partyList.List_Name</p>
+                        @if (!string.IsNullOrEmpty(partyList.List_Logo))
+                        {
+                            <img src="@Url.Content(partyList.List_Logo)" alt="Party List Image" class="img-fluid" />
+                        }
+                        <h5>Candidates</h5>
+                        <ul>
+                            @if (Model.PartyCandidatesByList.ContainsKey(partyList.ID))
+                            {
+                                foreach (var candidate in Model.PartyCandidatesByList[partyList.ID])
+                                {
+                                    <li>@candidate.Name</li>
+                                }
+                            }
+                            else
+                            {
+                                <li>No candidates available</li>
+                            }
+                        </ul>
+
+                        <button class="btn btn-success" onclick="showApprovalAlert(@partyList.ID)">Approve</button>
+
+
+                        <button class="btn btn-danger" onclick="showRejectionAlert(@partyList.ID)">Decline</button>
+
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+<script>
+    function showApprovalAlert(listId) {
+        Swal.fire({
+            title: 'Approve this item?',
+            input: 'textarea',
+            inputLabel: 'Your message',
+            inputPlaceholder: 'Type your message here...',
+            showCancelButton: true,
+            confirmButtonText: 'Approve',
+            cancelButtonText: 'Cancel',
+            preConfirm: (message) => {
+                return fetch(`/Admin/Approve/${listId}`, {
+                    method: 'POST',
+                    body: JSON.stringify({ message: message }),
+                    headers: {
+                        'Content-Type': 'application/json'
+                    }
+                }).then(response => {
+                    if (!response.ok) {
+                        throw new Error(response.statusText);
+                    }
+                    return response.json();
+                }).then(data => {
+                    if (data.success) {
+                        Swal.fire('Approved!', '', 'success');
+                    } else {
+                        Swal.fire('Failed!', '', 'error');
+                    }
+                });
+            }
+        });
+    }
+
+    function showRejectionAlert(listId) {
+        Swal.fire({
+            title: 'Reject this item?',
+            input: 'textarea',
+            inputLabel: 'Your message',
+            inputPlaceholder: 'Type your message here...',
+            showCancelButton: true,
+            confirmButtonText: 'Reject',
+            cancelButtonText: 'Cancel',
+            preConfirm: (message) => {
+                return fetch(`/Admin/Reject/${listId}`, {
+                    method: 'POST',
+                    body: JSON.stringify({ message: message }),
+                    headers: {
+                        'Content-Type': 'application/json'
+                    }
+                }).then(response => {
+                    if (!response.ok) {
+                        throw new Error(response.statusText);
+                    }
+                    return response.json();
+                }).then(data => {
+                    if (data.success) {
+                        Swal.fire('Rejected!', '', 'success');
+                    } else {
+                        Swal.fire('Failed!', '', 'error');
+                    }
+                });
+            }
+        });
+    }
+</script>
+

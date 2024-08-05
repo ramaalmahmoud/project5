@@ -1,37 +1,37 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Orange\\OneDrive\\Desktop\\Project5-election website\\",
+  "WorkspaceRootPath": "C:\\Users\\Orange\\OneDrive\\Desktop\\githup-project5\\project5\\Project5-election website\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{691AFE62-ABC4-4B83-A549-9EA12FF608E5}|Project5-election website\\Project5-election website.csproj|c:\\users\\orange\\onedrive\\desktop\\project5-election website\\project5-election website\\views\\candidates\\localapplication.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{691AFE62-ABC4-4B83-A549-9EA12FF608E5}|Project5-election website\\Project5-election website.csproj|solutionrelative:project5-election website\\views\\candidates\\localapplication.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{691AFE62-ABC4-4B83-A549-9EA12FF608E5}|Project5-election website\\Project5-election website.csproj|c:\\users\\orange\\onedrive\\desktop\\project5-election website\\project5-election website\\controllers\\candidatescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{691AFE62-ABC4-4B83-A549-9EA12FF608E5}|Project5-election website\\Project5-election website.csproj|C:\\Users\\Orange\\OneDrive\\Desktop\\githup-project5\\project5\\Project5-election website\\project5-election website\\controllers\\candidatescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{691AFE62-ABC4-4B83-A549-9EA12FF608E5}|Project5-election website\\Project5-election website.csproj|solutionrelative:project5-election website\\controllers\\candidatescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{691AFE62-ABC4-4B83-A549-9EA12FF608E5}|Project5-election website\\Project5-election website.csproj|c:\\users\\orange\\onedrive\\desktop\\project5-election website\\project5-election website\\views\\candidates\\candidatesapp.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{691AFE62-ABC4-4B83-A549-9EA12FF608E5}|Project5-election website\\Project5-election website.csproj|solutionrelative:project5-election website\\views\\candidates\\candidatesapp.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{691AFE62-ABC4-4B83-A549-9EA12FF608E5}|Project5-election website\\Project5-election website.csproj|c:\\users\\orange\\onedrive\\desktop\\project5-election website\\project5-election website\\controllers\\locallistscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{691AFE62-ABC4-4B83-A549-9EA12FF608E5}|Project5-election website\\Project5-election website.csproj|C:\\Users\\Orange\\OneDrive\\Desktop\\githup-project5\\project5\\Project5-election website\\project5-election website\\controllers\\locallistscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{691AFE62-ABC4-4B83-A549-9EA12FF608E5}|Project5-election website\\Project5-election website.csproj|solutionrelative:project5-election website\\controllers\\locallistscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{691AFE62-ABC4-4B83-A549-9EA12FF608E5}|Project5-election website\\Project5-election website.csproj|c:\\users\\orange\\onedrive\\desktop\\project5-election website\\project5-election website\\controllers\\localcandidatescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{691AFE62-ABC4-4B83-A549-9EA12FF608E5}|Project5-election website\\Project5-election website.csproj|C:\\Users\\Orange\\OneDrive\\Desktop\\githup-project5\\project5\\Project5-election website\\project5-election website\\views\\candidates\\candidatesapp.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{691AFE62-ABC4-4B83-A549-9EA12FF608E5}|Project5-election website\\Project5-election website.csproj|solutionrelative:project5-election website\\views\\candidates\\candidatesapp.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{691AFE62-ABC4-4B83-A549-9EA12FF608E5}|Project5-election website\\Project5-election website.csproj|c:\\users\\orange\\onedrive\\desktop\\githup-project5\\project5\\project5-election website\\project5-election website\\views\\candidates\\localapplication.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{691AFE62-ABC4-4B83-A549-9EA12FF608E5}|Project5-election website\\Project5-election website.csproj|solutionrelative:project5-election website\\views\\candidates\\localapplication.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{691AFE62-ABC4-4B83-A549-9EA12FF608E5}|Project5-election website\\Project5-election website.csproj|C:\\Users\\Orange\\OneDrive\\Desktop\\githup-project5\\project5\\Project5-election website\\project5-election website\\controllers\\localcandidatescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{691AFE62-ABC4-4B83-A549-9EA12FF608E5}|Project5-election website\\Project5-election website.csproj|solutionrelative:project5-election website\\controllers\\localcandidatescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{691AFE62-ABC4-4B83-A549-9EA12FF608E5}|Project5-election website\\Project5-election website.csproj|c:\\users\\orange\\onedrive\\desktop\\project5-election website\\project5-election website\\views\\localcandidates\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{691AFE62-ABC4-4B83-A549-9EA12FF608E5}|Project5-election website\\Project5-election website.csproj|C:\\Users\\Orange\\OneDrive\\Desktop\\githup-project5\\project5\\Project5-election website\\project5-election website\\views\\localcandidates\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{691AFE62-ABC4-4B83-A549-9EA12FF608E5}|Project5-election website\\Project5-election website.csproj|solutionrelative:project5-election website\\views\\localcandidates\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{691AFE62-ABC4-4B83-A549-9EA12FF608E5}|Project5-election website\\Project5-election website.csproj|c:\\users\\orange\\onedrive\\desktop\\project5-election website\\project5-election website\\models\\locallist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{691AFE62-ABC4-4B83-A549-9EA12FF608E5}|Project5-election website\\Project5-election website.csproj|C:\\Users\\Orange\\OneDrive\\Desktop\\githup-project5\\project5\\Project5-election website\\project5-election website\\models\\locallist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{691AFE62-ABC4-4B83-A549-9EA12FF608E5}|Project5-election website\\Project5-election website.csproj|solutionrelative:project5-election website\\models\\locallist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{691AFE62-ABC4-4B83-A549-9EA12FF608E5}|Project5-election website\\Project5-election website.csproj|c:\\users\\orange\\onedrive\\desktop\\project5-election website\\project5-election website\\views\\locallists\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{691AFE62-ABC4-4B83-A549-9EA12FF608E5}|Project5-election website\\Project5-election website.csproj|C:\\Users\\Orange\\OneDrive\\Desktop\\githup-project5\\project5\\Project5-election website\\project5-election website\\views\\locallists\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{691AFE62-ABC4-4B83-A549-9EA12FF608E5}|Project5-election website\\Project5-election website.csproj|solutionrelative:project5-election website\\views\\locallists\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
@@ -42,16 +42,16 @@
       "DocumentGroups": [
         {
           "DockedWidth": 296,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "CandidatesController.cs",
-              "DocumentMoniker": "C:\\Users\\Orange\\OneDrive\\Desktop\\Project5-election website\\Project5-election website\\Controllers\\CandidatesController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\OneDrive\\Desktop\\githup-project5\\project5\\Project5-election website\\Project5-election website\\Controllers\\CandidatesController.cs",
               "RelativeDocumentMoniker": "Project5-election website\\Controllers\\CandidatesController.cs",
-              "ToolTip": "C:\\Users\\Orange\\OneDrive\\Desktop\\Project5-election website\\Project5-election website\\Controllers\\CandidatesController.cs*",
-              "RelativeToolTip": "Project5-election website\\Controllers\\CandidatesController.cs*",
+              "ToolTip": "C:\\Users\\Orange\\OneDrive\\Desktop\\githup-project5\\project5\\Project5-election website\\Project5-election website\\Controllers\\CandidatesController.cs",
+              "RelativeToolTip": "Project5-election website\\Controllers\\CandidatesController.cs",
               "ViewState": "AQIAADgAAAAAAAAAAAAgwB0AAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-04T19:00:31.006Z",
@@ -60,11 +60,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "localApplication.cshtml",
-              "DocumentMoniker": "C:\\Users\\Orange\\OneDrive\\Desktop\\Project5-election website\\Project5-election website\\Views\\Candidates\\localApplication.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\OneDrive\\Desktop\\githup-project5\\project5\\Project5-election website\\Project5-election website\\Views\\Candidates\\localApplication.cshtml",
               "RelativeDocumentMoniker": "Project5-election website\\Views\\Candidates\\localApplication.cshtml",
-              "ToolTip": "C:\\Users\\Orange\\OneDrive\\Desktop\\Project5-election website\\Project5-election website\\Views\\Candidates\\localApplication.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\OneDrive\\Desktop\\githup-project5\\project5\\Project5-election website\\Project5-election website\\Views\\Candidates\\localApplication.cshtml",
               "RelativeToolTip": "Project5-election website\\Views\\Candidates\\localApplication.cshtml",
               "ViewState": "AQIAAAgAAAAAAAAAAAAUwCAAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -84,9 +84,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "candidatesAPP.cshtml",
-              "DocumentMoniker": "C:\\Users\\Orange\\OneDrive\\Desktop\\Project5-election website\\Project5-election website\\Views\\Candidates\\candidatesAPP.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\OneDrive\\Desktop\\githup-project5\\project5\\Project5-election website\\Project5-election website\\Views\\Candidates\\candidatesAPP.cshtml",
               "RelativeDocumentMoniker": "Project5-election website\\Views\\Candidates\\candidatesAPP.cshtml",
-              "ToolTip": "C:\\Users\\Orange\\OneDrive\\Desktop\\Project5-election website\\Project5-election website\\Views\\Candidates\\candidatesAPP.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\OneDrive\\Desktop\\githup-project5\\project5\\Project5-election website\\Project5-election website\\Views\\Candidates\\candidatesAPP.cshtml",
               "RelativeToolTip": "Project5-election website\\Views\\Candidates\\candidatesAPP.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -95,13 +95,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "localListsController.cs",
-              "DocumentMoniker": "C:\\Users\\Orange\\OneDrive\\Desktop\\Project5-election website\\Project5-election website\\Controllers\\localListsController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\OneDrive\\Desktop\\githup-project5\\project5\\Project5-election website\\Project5-election website\\Controllers\\localListsController.cs",
               "RelativeDocumentMoniker": "Project5-election website\\Controllers\\localListsController.cs",
-              "ToolTip": "C:\\Users\\Orange\\OneDrive\\Desktop\\Project5-election website\\Project5-election website\\Controllers\\localListsController.cs",
+              "ToolTip": "C:\\Users\\Orange\\OneDrive\\Desktop\\githup-project5\\project5\\Project5-election website\\Project5-election website\\Controllers\\localListsController.cs",
               "RelativeToolTip": "Project5-election website\\Controllers\\localListsController.cs",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAiwDEAAAAJAAAA",
+              "ViewState": "AQIAABEAAAAAAAAAAAA0wDEAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-04T20:08:42.337Z",
               "EditorCaption": ""
@@ -110,58 +110,64 @@
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "localList.cs",
-              "DocumentMoniker": "C:\\Users\\Orange\\OneDrive\\Desktop\\Project5-election website\\Project5-election website\\Models\\localList.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\OneDrive\\Desktop\\githup-project5\\project5\\Project5-election website\\Project5-election website\\Models\\localList.cs",
               "RelativeDocumentMoniker": "Project5-election website\\Models\\localList.cs",
-              "ToolTip": "C:\\Users\\Orange\\OneDrive\\Desktop\\Project5-election website\\Project5-election website\\Models\\localList.cs",
+              "ToolTip": "C:\\Users\\Orange\\OneDrive\\Desktop\\githup-project5\\project5\\Project5-election website\\Project5-election website\\Models\\localList.cs",
               "RelativeToolTip": "Project5-election website\\Models\\localList.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAuwBIAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-04T19:59:49.711Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-04T19:59:49.711Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Orange\\OneDrive\\Desktop\\Project5-election website\\Project5-election website\\Views\\LocalCandidates\\Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\OneDrive\\Desktop\\githup-project5\\project5\\Project5-election website\\Project5-election website\\Views\\LocalCandidates\\Create.cshtml",
               "RelativeDocumentMoniker": "Project5-election website\\Views\\LocalCandidates\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Orange\\OneDrive\\Desktop\\Project5-election website\\Project5-election website\\Views\\LocalCandidates\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\OneDrive\\Desktop\\githup-project5\\project5\\Project5-election website\\Project5-election website\\Views\\LocalCandidates\\Create.cshtml",
               "RelativeToolTip": "Project5-election website\\Views\\LocalCandidates\\Create.cshtml",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAABYAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-05T05:36:13.145Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-05T05:36:13.145Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "LocalCandidatesController.cs",
-              "DocumentMoniker": "C:\\Users\\Orange\\OneDrive\\Desktop\\Project5-election website\\Project5-election website\\Controllers\\LocalCandidatesController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\OneDrive\\Desktop\\githup-project5\\project5\\Project5-election website\\Project5-election website\\Controllers\\LocalCandidatesController.cs",
               "RelativeDocumentMoniker": "Project5-election website\\Controllers\\LocalCandidatesController.cs",
-              "ToolTip": "C:\\Users\\Orange\\OneDrive\\Desktop\\Project5-election website\\Project5-election website\\Controllers\\LocalCandidatesController.cs",
+              "ToolTip": "C:\\Users\\Orange\\OneDrive\\Desktop\\githup-project5\\project5\\Project5-election website\\Project5-election website\\Controllers\\LocalCandidatesController.cs",
               "RelativeToolTip": "Project5-election website\\Controllers\\LocalCandidatesController.cs",
               "ViewState": "AQIAAGEAAAAAAAAAAAAwwDAAAAA/AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-04T18:58:25.682Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-04T18:58:25.682Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Orange\\OneDrive\\Desktop\\Project5-election website\\Project5-election website\\Views\\localLists\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\OneDrive\\Desktop\\githup-project5\\project5\\Project5-election website\\Project5-election website\\Views\\localLists\\Index.cshtml",
               "RelativeDocumentMoniker": "Project5-election website\\Views\\localLists\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Orange\\OneDrive\\Desktop\\Project5-election website\\Project5-election website\\Views\\localLists\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\OneDrive\\Desktop\\githup-project5\\project5\\Project5-election website\\Project5-election website\\Views\\localLists\\Index.cshtml",
               "RelativeToolTip": "Project5-election website\\Views\\localLists\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-04T20:08:51.623Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-04T20:08:51.623Z"
             }
           ]
         },
         {
           "DockedWidth": 104,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cdbdee54-b399-484b-b763-db2c3393d646}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
           "SelectedChildIndex": -1,
           "Children": [
             {
