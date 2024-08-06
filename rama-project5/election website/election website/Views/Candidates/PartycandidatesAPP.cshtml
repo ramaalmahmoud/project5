@@ -1,0 +1,67 @@
+﻿@{
+    ViewBag.Title = "تطبيق مرشحي القائمة الحزبية";
+}
+
+<section class="section-advertisement pt-60 pt-lg-100 pt-xxl-120 pb-40">
+    <div class="container advertisement_Card">
+        <h2>تطبيق مرشحي القائمة الحزبية</h2>
+
+        @using (Html.BeginForm("PartycandidatesAPP", "Candidates", FormMethod.Post, new { enctype = "multipart/form-data" }))
+        {
+            @Html.AntiForgeryToken()
+
+            <div class="form-container">
+                <!-- تحميل ملف Excel للمرشحين -->
+                <div class="form-group">
+                    <label for="CandidatesExcelFile" class="form-label">تحميل ملف Excel للمرشحين</label>
+                    <input type="file" name="CandidatesExcelFile" class="form-control" />
+                </div>
+
+                <div class="advertisement_button">
+                    <button type="submit" class="btn btn-primary">تقديم</button>
+                </div>
+            </div>
+        }
+    </div>
+</section>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
+
+<style>
+    .advertisement_button {
+        margin: auto;
+        text-align: center;
+    }
+
+    .advertisement_Card {
+        width: 60%;
+        margin: auto;
+    }
+
+    .form-container {
+        border: 2px solid #ccc;
+        padding: 30px;
+        border-radius: 10px;
+        background-color: #f9f9f9;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .form-label {
+        font-weight: bold;
+    }
+
+    .form-group {
+        margin-bottom: 1rem;
+    }
+
+    .form-control {
+        width: 100%;
+    }
+
+    .text-center {
+        text-align: center;
+        margin-top: 20px;
+    }
+</style>

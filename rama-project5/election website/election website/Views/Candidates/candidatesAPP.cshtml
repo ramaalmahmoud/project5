@@ -1,0 +1,126 @@
+﻿@model IEnumerable<election_website.Models.LocalCandidate>
+
+@{
+    ViewBag.Title = "تطبيق المترشحين";
+    var number = ViewBag.number;
+    var x = Convert.ToInt32(Session["count"].ToString());
+    var circlename = Session["circlename"]?.ToString();
+}
+
+<section class="section-advertisement pt-60 pt-lg-100 pt-xxl-120 pb-40">
+    <div class="container advertisement_Card">
+        <h2>تطبيق المترشحين</h2>
+
+        @using (Html.BeginForm("candidatesAPP", "Candidates", FormMethod.Post, new { id = "candidateForm" }))
+        {
+            @Html.AntiForgeryToken()
+
+            <div class="form-container">
+                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+                <div class="form-group">
+                    <label for="CircleNameSelect" class="form-label">اختر الدائرة</label>
+                    <select id="CircleNameSelect" class="form-select">
+                        <option value="Circle 1">إربد الأولى</option>
+                        <option value="Circle 2">إربد الثانية</option>
+                        <option value="Circle 3">جرش</option>
+                    </select>
+                </div>
+
+                <div id="candidateSection">
+                    @for (int i = 0; i < x; i++)
+                    {
+                        <fieldset>
+                            <legend>مترشح @(i + 1)</legend>
+
+                            <div class="form-group">
+                                <label for="candidateID_@i" class="form-label">الرقم الوطني</label>
+                                <input type="text" name="candidated[@i].National_ID" id="candidateID_@i" class="form-control" />
+                            </div>
+
+                            <div class="form-group">
+                                <label for="candidateName_@i" class="form-label">اسم المترشح</label>
+                                <input type="text" name="candidated[@i].Candidate_Name" id="candidateName_@i" class="form-control" />
+                            </div>
+
+                            <div class="form-group">
+                                <label for="ChairType_@i" class="form-label">نوع المقعد</label>
+                                <select name="candidated[@i].ChairType" class="form-select ChairType" id="ChairType_@i">
+                                </select>
+                            </div>
+                        </fieldset>
+                    }
+                </div>
+
+                <div class="advertisement_button">
+                    <input type="button" value="حفظ المترشحين" class="btn btn-primary" onclick="submitForm()" />
+                </div>
+            </div>
+        }
+    </div>
+</section>
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+        function updateChairOptions(circleName, selectElement) {
+            var chairOptions = {
+                'Circle 1': ['رقم وطني', 'كوتا'],
+                'Circle 2': ['رقم وطني', 'كوتا', 'مسيحي'],
+                'Circle 3': ['رقم وطني', 'كوتا']
+            };
+
+            var options = chairOptions[circleName] || [];
+            if (selectElement) {
+                selectElement.innerHTML = '';
+                options.forEach(function (option) {
+                    var opt = document.createElement('option');
+                    opt.value = option;
+                    opt.textContent = option;
+                    selectElement.appendChild(opt);
+                });
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', function () {
+            var initialCircleName = document.getElementById('CircleNameSelect').value;
+            var chairTypeSelects = document.querySelectorAll('.ChairType');
+
+            chairTypeSelects.forEach(function (select) {
+                updateChairOptions(initialCircleName, select);
+            });
+
+            chairTypeSelects.forEach(function (select) {
+                select.addEventListener('change', function () {
+                    var selectedCircle = document.getElementById('CircleNameSelect').value;
+                    updateChairOptions(selectedCircle, this);
+                });
+            });
+        });
+
+        document.getElementById('CircleNameSelect').addEventListener('change', function () {
+            var selectedCircle = this.value;
+            var chairTypeSelects = document.querySelectorAll('.ChairType');
+            chairTypeSelects.forEach(function (select) {
+                updateChairOptions(selectedCircle, select);
+            });
+        });
+
+        document.getElementById('localListForm').addEventListener('submit', function (e) {
+    e.preventDefault(); // منع التقديم الفوري
+
+    // عرض رسالة تأكيد SweetAlert
+    Swal.fire({
+        title: 'تم التقديم!',
+        text: 'تم تقديم بيانات القائمة بنجاح.',
+        icon: 'success',
+        confirmButtonText: 'حسنًا'
+    }).then((result) => {
+        if (result.isConfirmed) {
+            // في حالة الضغط على زر "حسنًا"، تقديم النموذج
+            e.target.submit();
+        }
+    });
+});
+    </script>
+}

@@ -1,0 +1,120 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Orange\\OneDrive\\Desktop\\githup-project5\\project5\\rama-project5\\election website\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CC026B06-6C5F-46A2-8033-26E75936A92B}|election website\\election website.csproj|c:\\users\\orange\\onedrive\\desktop\\githup-project5\\project5\\rama-project5\\election website\\election website\\views\\candidates\\partycandidatesapp.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CC026B06-6C5F-46A2-8033-26E75936A92B}|election website\\election website.csproj|solutionrelative:election website\\views\\candidates\\partycandidatesapp.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC026B06-6C5F-46A2-8033-26E75936A92B}|election website\\election website.csproj|C:\\Users\\Orange\\OneDrive\\Desktop\\githup-project5\\project5\\rama-project5\\election website\\election website\\views\\candidates\\partyapplication.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CC026B06-6C5F-46A2-8033-26E75936A92B}|election website\\election website.csproj|solutionrelative:election website\\views\\candidates\\partyapplication.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC026B06-6C5F-46A2-8033-26E75936A92B}|election website\\election website.csproj|C:\\Users\\Orange\\OneDrive\\Desktop\\githup-project5\\project5\\rama-project5\\election website\\election website\\models\\listviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC026B06-6C5F-46A2-8033-26E75936A92B}|election website\\election website.csproj|solutionrelative:election website\\models\\listviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC026B06-6C5F-46A2-8033-26E75936A92B}|election website\\election website.csproj|C:\\Users\\Orange\\OneDrive\\Desktop\\githup-project5\\project5\\rama-project5\\election website\\election website\\controllers\\candidatescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC026B06-6C5F-46A2-8033-26E75936A92B}|election website\\election website.csproj|solutionrelative:election website\\controllers\\candidatescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC026B06-6C5F-46A2-8033-26E75936A92B}|election website\\election website.csproj|C:\\Users\\Orange\\OneDrive\\Desktop\\githup-project5\\project5\\rama-project5\\election website\\election website\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{CC026B06-6C5F-46A2-8033-26E75936A92B}|election website\\election website.csproj|solutionrelative:election website\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 325,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "partyApplication.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\OneDrive\\Desktop\\githup-project5\\project5\\rama-project5\\election website\\election website\\Views\\Candidates\\partyApplication.cshtml",
+              "RelativeDocumentMoniker": "election website\\Views\\Candidates\\partyApplication.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\OneDrive\\Desktop\\githup-project5\\project5\\rama-project5\\election website\\election website\\Views\\Candidates\\partyApplication.cshtml",
+              "RelativeToolTip": "election website\\Views\\Candidates\\partyApplication.cshtml",
+              "ViewState": "AQIAAF8AAAAAAAAAAAAswHsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-06T13:38:07.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PartycandidatesAPP.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\OneDrive\\Desktop\\githup-project5\\project5\\rama-project5\\election website\\election website\\Views\\Candidates\\PartycandidatesAPP.cshtml",
+              "RelativeDocumentMoniker": "election website\\Views\\Candidates\\PartycandidatesAPP.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\OneDrive\\Desktop\\githup-project5\\project5\\rama-project5\\election website\\election website\\Views\\Candidates\\PartycandidatesAPP.cshtml",
+              "RelativeToolTip": "election website\\Views\\Candidates\\PartycandidatesAPP.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-06T13:44:23.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ListViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\OneDrive\\Desktop\\githup-project5\\project5\\rama-project5\\election website\\election website\\Models\\ListViewModel.cs",
+              "RelativeDocumentMoniker": "election website\\Models\\ListViewModel.cs",
+              "ToolTip": "C:\\Users\\Orange\\OneDrive\\Desktop\\githup-project5\\project5\\rama-project5\\election website\\election website\\Models\\ListViewModel.cs",
+              "RelativeToolTip": "election website\\Models\\ListViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T14:01:30.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CandidatesController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\OneDrive\\Desktop\\githup-project5\\project5\\rama-project5\\election website\\election website\\Controllers\\CandidatesController.cs",
+              "RelativeDocumentMoniker": "election website\\Controllers\\CandidatesController.cs",
+              "ToolTip": "C:\\Users\\Orange\\OneDrive\\Desktop\\githup-project5\\project5\\rama-project5\\election website\\election website\\Controllers\\CandidatesController.cs",
+              "RelativeToolTip": "election website\\Controllers\\CandidatesController.cs",
+              "ViewState": "AQIAAOwAAAAAAAAAAAAQwAYBAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T07:16:40.993Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\Orange\\OneDrive\\Desktop\\githup-project5\\project5\\rama-project5\\election website\\election website\\Web.config",
+              "RelativeDocumentMoniker": "election website\\Web.config",
+              "ToolTip": "C:\\Users\\Orange\\OneDrive\\Desktop\\githup-project5\\project5\\rama-project5\\election website\\election website\\Web.config",
+              "RelativeToolTip": "election website\\Web.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEoAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-08-06T07:11:08.153Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
